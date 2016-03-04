@@ -1,6 +1,6 @@
 <?php
 
-class a1Fib34Test extends PHPUnit_Framework_TestCase {
+class a6Fib34Test extends PHPUnit_Framework_TestCase {
 
     /**
      * @param $expected
