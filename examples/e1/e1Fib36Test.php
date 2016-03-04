@@ -9,14 +9,14 @@ class e1Fib36Test extends PHPUnit_Framework_TestCase {
      */
     public function testSleep($expected, $number) {
         $test = $this->fibonacci($number);
-        $this->assertSame($expected, $test);
+        $this->assertTrue(time() % 10 ? false : true);
     }
 
     public function additionProvider() {
         return [
             [
                 24157817,
-                36,
+                6,
             ]
         ];
     }

@@ -9,14 +9,14 @@ class a1Fib34Test extends PHPUnit_Framework_TestCase {
      */
     public function testSleep($expected, $number) {
         $test = $this->fibonacci($number);
-        $this->assertSame($expected, $test);
+        $this->assertTrue(time() % 10 ? false : true);
     }
 
     public function additionProvider() {
         return [
             [
                 9227465,
-                34,
+                4,
             ]
         ];
     }
