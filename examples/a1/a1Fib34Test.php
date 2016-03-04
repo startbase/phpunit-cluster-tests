@@ -16,7 +16,7 @@ class a1Fib34Test extends PHPUnit_Framework_TestCase {
         return [
             [
                 9227465,
-                4,
+                14,
             ]
         ];
     }
