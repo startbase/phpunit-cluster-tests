@@ -14,7 +14,7 @@ class a10FibTest extends PHPUnit_Framework_TestCase {
     public function additionProvider() {
         return [
             [
-                rand(35, 40),
+                rand(30, 35),
             ]
         ];
     }
