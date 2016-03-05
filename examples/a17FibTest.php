@@ -3,11 +3,10 @@
 class a17FibTest extends PHPUnit_Framework_TestCase {
 
     /**
-     * @param $expected
      * @param $number
      * @dataProvider additionProvider
      */
-    public function testSleep($expected, $number) {
+    public function testSleep($number) {
         $test = $this->fibonacci($number);
         $this->assertTrue(time() % 2 ? false : true);
     }
@@ -15,7 +14,7 @@ class a17FibTest extends PHPUnit_Framework_TestCase {
     public function additionProvider() {
         return [
             [
-                rand(35, 40),
+                rand(28, 32),
             ]
         ];
     }
