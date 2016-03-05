@@ -14,7 +14,7 @@ class a4FibTest extends PHPUnit_Framework_TestCase {
     public function additionProvider() {
         return [
             [
-                rand(28, 32),
+                rand(35, 40),
             ]
         ];
     }
