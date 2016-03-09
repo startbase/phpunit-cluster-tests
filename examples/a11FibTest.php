@@ -14,7 +14,7 @@ class a11FibTest extends PHPUnit_Framework_TestCase {
     public function additionProvider() {
         return [
             [
-                35,
+                32,
             ]
         ];
     }
